@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+main > div{
+    border: 2px solid #e3e3e3;
+    background-color: #e3e3e3;
+    padding: 1rem;
+}
+.productsDiv {
+  width: 65%;
+}
+.cartDiv {
+  width: 35%;
+}
+.item{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #999696;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+.item > p{
+    width: 40%;
+}
+.item > div{
+    width: 20%;
+}
+.item .quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4e864e;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.25rem;
+}
+.item .quantity button, .item .quantity p{
+    padding: 0 0.25rem
+}
